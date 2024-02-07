@@ -1,0 +1,128 @@
+.profile-image-wrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.theme-btn, .theme-btn-custom, .bg-button {
+    width: 120px;
+    height: 200px;
+}
+
+.theme-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.theme-btn img:hover{
+    border: 2px solid #6e7fff !important;
+}
+
+.btn-selected, .bg-type-selected {
+    color: #002d75;
+    background-color: hsl(206deg 100% 97.2%);
+    border: 2px solid #000e70 !important;
+}
+
+.gradient {
+    background: linear-gradient(45deg, black, transparent);
+}
+        
+.dropdown-toggle::after {
+    color: #000000;
+}
+
+body{
+    background-color: #f3f3f1;
+}
+nav {
+    background: linear-gradient(to right, #e6fff3 0%, #c8deffa3 100%);
+    border: 1px solid #cfdbe7 !important;
+}
+main{
+    margin-top: 90px;
+}
+
+@media (min-width: 992px) {
+    .rounded-desktop {
+        border-radius: 50px;
+    }
+}
+
+@media (min-width: 1400px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+.btn-dark{
+    background: linear-gradient(to right, #198754 0%, #1976ffa3 100%);
+    border: 1px solid #adb5bd;
+}
+
+
+.qr-btn{
+    border-radius:8px;
+}
+.qr-btn:hover{
+    background:#dae0e8;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sanserif {
+    font-family: sans-serif;
+}
+
+.preview {
+    position: fixed;
+}
+
+@media (max-width: 1000px) {
+    .preview {
+        position: relative !important;
+        margin-left: 0px !important;
+    }
+}
+
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 33px;
+}
+
+.loading-overlay p {
+    margin-top: 10px;
+}
